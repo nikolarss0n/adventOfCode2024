@@ -3,16 +3,17 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "ts-node Day_01/task.ts"
 	},
+	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"description": "",
-	"type": "module",
 	"dependencies": {
-		"@types/lodash-es": "^4.17.12",
+		"@types/lodash": "^4.17.13",
 		"@types/node": "^22.10.1",
-		"lodash-es": "^4.17.21"
-	},
-	"devDependencies": {}
+		"lodash": "^4.17.21",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.7.2"
+	}
 }
