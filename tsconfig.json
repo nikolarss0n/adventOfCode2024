@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ESNext", // Target ES6 or later
+		"module": "commonjs", // Use CommonJS for Node.js compatibility
+		"strict": true, // Enable strict type-checking
+		"esModuleInterop": true, // Allow default imports for CommonJS modules
+		"skipLibCheck": true, // Skip type checking for declaration files
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"lib": ["es6", "DOM"] // Add ES2015+ for WeakSet and DOM if needed
+	},
+	"include": [
+		"./**/*.ts" // Include all TypeScript files in the project
+	],
+	"exclude": [
+		"node_modules" // Exclude node_modules
+	]
+}
